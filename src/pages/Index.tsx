@@ -13,11 +13,11 @@ const Index = () => {
       <section className="px-4 py-16 lg:py-24 max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <div className="flex justify-center mb-8">
-            <div className="w-20 h-20 bg-orange-500 rounded-full flex items-center justify-center shadow-2xl animate-pulse">
+            <div className=" flex items-center justify-center shadow-2xl animate-pulse">
               <img 
-                src="/lovable-uploads/f42688a5-7015-41b1-b2dd-d22d9129e704.png" 
+                src="/Start.png" 
                 alt="Codora Owl Mascot"
-                className="w-12 h-12 object-contain"
+                className="w-[200px] h-[200px] object-contain"
               />
             </div>
           </div>
@@ -28,14 +28,14 @@ const Index = () => {
           <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
             Test your programming skills, compete with developers worldwide, and enhance your coding knowledge through intelligent, adaptive challenges.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 text-lg font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
               Download for Android <Download className="ml-2 h-5 w-5" />
             </Button>
             <Button variant="outline" size="lg" className="border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white px-8 py-3 text-lg font-semibold rounded-xl transition-all duration-300">
               View Screenshots <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -86,7 +86,7 @@ const Index = () => {
 
       {/* Screenshot Gallery */}
       <section className="px-4 py-16 max-w-6xl mx-auto">
-        <div className="text-center mb-12">
+        <div className="text-center mb-20">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             See Codora in <span className="text-orange-500">Action</span>
           </h2>
@@ -101,33 +101,32 @@ const Index = () => {
               imageSrc="/lovable-uploads/8218301d-8186-4714-a564-b3781ebd2faf.png"
               alt="Codora App Home Screen"
             />
-            <p className="text-center text-gray-400 mt-3 text-sm">Welcome Screen</p>
+          
           </div>
-          <div className="transform hover:scale-105 transition-transform duration-300">
+          <div className="transform hover:scale-105 lg:pt-[80px] transition-transform duration-300">
             <MobilePhoneMockup 
               imageSrc="/lovable-uploads/d1a6d630-aadb-446e-bff4-bd33f52dd0de.png"
               alt="Quiz Mode Selection"
             />
-            <p className="text-center text-gray-400 mt-3 text-sm">Quiz Modes</p>
+         
           </div>
           <div className="transform hover:scale-105 transition-transform duration-300">
             <MobilePhoneMockup 
               imageSrc="/lovable-uploads/8f5d8fc7-e696-4edc-99eb-40661af0472c.png"
               alt="Create Quiz Room"
             />
-            <p className="text-center text-gray-400 mt-3 text-sm">Host Quiz</p>
+           
           </div>
-          <div className="transform hover:scale-105 transition-transform duration-300">
+          <div className="transform hover:scale-105 lg:pt-[80px] transition-transform duration-300">
             <MobilePhoneMockup 
               imageSrc="/lovable-uploads/e83a4126-ab13-4c40-8fea-3c66903259ff.png"
               alt="Quiz Results"
             />
-            <p className="text-center text-gray-400 mt-3 text-sm">Results & Scores</p>
+            
           </div>
         </div>
       </section>
 
-      {/* Testimonials */}
       <section className="px-4 py-16 max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
@@ -163,10 +162,10 @@ const Index = () => {
         </div>
       </section>
 
-      {/* APK Download Section */}
+    
       <ApkDownloadSection />
 
-      {/* Footer */}
+     
       <footer className="px-4 py-12 border-t border-gray-800">
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex justify-center mb-6">
@@ -182,7 +181,7 @@ const Index = () => {
             <span className="text-orange-500 font-bold">Codora</span> - Empowering developers through intelligent learning
           </p>
           <p className="text-gray-500 text-sm">
-            © 2024 Codora. All rights reserved. Built with ❤️ for the developer community.
+            © 2025 Codora. All rights reserved. Built with ❤️ for the developer community.
           </p>
         </div>
       </footer>

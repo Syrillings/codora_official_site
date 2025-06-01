@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const ApkDownloadSection = () => {
   return (
     <section className="px-4 py-16 max-w-4xl mx-auto">
-      <Card className="bg-gradient-to-r from-orange-500 to-amber-500 border-0 shadow-2xl">
+      <Card className="bg-orange-500 border-0 shadow-2xl">
         <CardContent className="p-8 md:p-12 text-center">
           <div className="flex justify-center mb-6">
             <img 
