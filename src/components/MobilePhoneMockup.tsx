@@ -10,12 +10,12 @@ const MobilePhoneMockup = ({ imageSrc, alt }: MobilePhoneMockupProps) => {
       {/* Google Pixel Frame */}
       <div className="relative w-64 h-[520px] bg-gray-900 rounded-[2rem] p-1 shadow-2xl border border-gray-700">
         {/* Screen */}
-        <div className="w-full h-full bg-black rounded-[1.75rem] overflow-hidden relative">
+        <div className="w-full h-full bg-black rounded-[1.75rem] overflow-hidden relative p-3">
           {/* Screenshot */}
           <img 
             src={imageSrc} 
             alt={alt}
-            className="w-full h-full object-cover rounded-[1.75rem]"
+            className="w-full h-full object-cover rounded-[1rem] mx-auto"
           />
         </div>
         
