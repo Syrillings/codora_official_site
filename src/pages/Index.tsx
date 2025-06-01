@@ -1,20 +1,24 @@
-
 import { ArrowRight, Download, Star, Users, Brain, Trophy, Smartphone, Zap, Code, Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import MobilePhoneMockup from "@/components/MobilePhoneMockup";
 import FeatureCard from "@/components/FeatureCard";
 import TestimonialCard from "@/components/TestimonialCard";
+import ApkDownloadSection from "@/components/ApkDownloadSection";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800">
+    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black">
       {/* Hero Section */}
       <section className="px-4 py-16 lg:py-24 max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <div className="flex justify-center mb-8">
             <div className="w-20 h-20 bg-orange-500 rounded-full flex items-center justify-center shadow-2xl animate-pulse">
-              <div className="text-white text-2xl">🦉</div>
+              <img 
+                src="/lovable-uploads/f42688a5-7015-41b1-b2dd-d22d9129e704.png" 
+                alt="Codora Owl Mascot"
+                className="w-12 h-12 object-contain"
+              />
             </div>
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
@@ -159,39 +163,19 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Download Section */}
-      <section className="px-4 py-16 max-w-4xl mx-auto">
-        <Card className="bg-gradient-to-r from-orange-500 to-amber-500 border-0 shadow-2xl">
-          <CardContent className="p-8 md:p-12 text-center">
-            <div className="flex justify-center mb-6">
-              <Smartphone className="h-16 w-16 text-white" />
-            </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Ready to Level Up Your Coding Skills?
-            </h2>
-            <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-              Download Codora for Android and start your journey to becoming a better developer today. Join our community of passionate coders!
-            </p>
-            <Button 
-              size="lg" 
-              className="bg-white text-orange-500 hover:bg-gray-100 px-8 py-4 text-lg font-bold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg"
-            >
-              <Download className="mr-3 h-6 w-6" />
-              Download APK (Free)
-            </Button>
-            <p className="text-white/80 text-sm mt-4">
-              Compatible with Android 7.0 and above • 25MB download
-            </p>
-          </CardContent>
-        </Card>
-      </section>
+      {/* APK Download Section */}
+      <ApkDownloadSection />
 
       {/* Footer */}
       <footer className="px-4 py-12 border-t border-gray-800">
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex justify-center mb-6">
             <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center">
-              <div className="text-white text-lg">🦉</div>
+              <img 
+                src="/lovable-uploads/f42688a5-7015-41b1-b2dd-d22d9129e704.png" 
+                alt="Codora Owl Mascot"
+                className="w-8 h-8 object-contain"
+              />
             </div>
           </div>
           <p className="text-gray-400 text-lg mb-4">
