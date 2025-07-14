@@ -21,6 +21,7 @@ const ApkDownloadSection = () => {
           <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
             Download Codora for Android and start your journey to becoming a better developer today. Join our community of passionate coders!
           </p>
+          <a href="https://codoraofficialsite.vercel.app/Codora.apk">
           <Button 
             size="lg" 
             className="bg-white text-orange-500 hover:bg-gray-100 px-8 py-4 text-lg font-bold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg"
@@ -28,8 +29,9 @@ const ApkDownloadSection = () => {
             <Download className="mr-3 h-6 w-6" />
             Download APK (Free)
           </Button>
+          </a>
           <p className="text-white/80 text-sm mt-4">
-            Compatible with Android 7.0 and above • 25MB download
+            Compatible with Android 7.0 and above • 38MB download
           </p>
         </CardContent>
       </Card>
