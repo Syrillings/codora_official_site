@@ -59,7 +59,7 @@ const ApkDownloadSection = () => {
             </div>
           )}
           <p className="text-white/80 text-sm mt-4">
-            Compatible with Android 7.0 and above • 38MB download
+            Compatible with Android 7.0 and above • 40MB download
           </p>
         </CardContent>
       </Card>
