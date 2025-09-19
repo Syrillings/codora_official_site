@@ -183,6 +183,14 @@ const Index = () => {
           <p className="text-gray-500 text-sm">
             © 2025 Codora. All rights reserved. Built with ❤️ for the developer community.
           </p>
+          <div className="mt-4">
+            <a 
+              href="/privacy-policy" 
+              className="text-orange-400 hover:text-orange-300 text-sm transition-colors duration-200"
+            >
+              Privacy Policy
+            </a>
+          </div>
         </div>
       </footer>
     </div>
