@@ -1,6 +1,7 @@
 import { ArrowRight, Download, Star, Users, Brain, Trophy, Smartphone, Zap, Code, Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import {Link} from 'react-router-dom'
 import MobilePhoneMockup from "@/components/MobilePhoneMockup";
 import FeatureCard from "@/components/FeatureCard";
 import TestimonialCard from "@/components/TestimonialCard";
@@ -184,12 +185,11 @@ const Index = () => {
             © 2025 Codora. All rights reserved. Built with ❤️ for the developer community.
           </p>
           <div className="mt-4">
-            <a 
-              href="/privacy-policy" 
+            <Link to="/privacy-policy" 
               className="text-orange-400 hover:text-orange-300 text-sm transition-colors duration-200"
             >
               Privacy Policy
-            </a>
+            </Link>
           </div>
         </div>
       </footer>
